@@ -26,6 +26,10 @@ body {
   border-radius: 10px;
 }
 
+.container h1{
+    text-align: center;
+}
+
 form input, form label, form button {
   display: block;
   width: 100%;
@@ -59,8 +63,29 @@ form button:hover {
 
 .relogio {
     font-size: 3em;
+    text-align: center;
 }
 
 .pausado {
     color: red
+}
+
+button {
+        color: #1cc49d;
+        background-color: #1b2f31;
+        border-radius: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 3em;
+        width: 8em;
+        font-size: large;
+        font-weight: 600;
+    }
+
+.button-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
